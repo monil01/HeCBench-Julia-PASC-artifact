@@ -1,0 +1,17 @@
+{
+  "outcomes": {
+    "numerical": 436,
+    "property": 2,
+    "execution": 5,
+    "hardware": 4
+  },
+  "eligible_names": 377,
+  "eligible_configurations": 428,
+  "median_native_over_model": {
+    "cuda_jl": 0.7914355416575003,
+    "ka": 0.6649322833992573,
+    "jacc": 0.49529343805488363
+  },
+  "scope": "Replay of compact recorded observations; not recomputation of omitted historical GPU artifacts. Heat uses recorded audited maxima; roofline uses recorded profile counters. Fresh controls have separate replay scripts.",
+  "seconds": 18.945568538969383
+}
